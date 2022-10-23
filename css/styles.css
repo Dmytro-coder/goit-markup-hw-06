@@ -428,6 +428,7 @@ img {
 .footer-social-container {
   width: 206px;
   height: 80px;
+  margin-right: 93px;
 }
 .social-link-title {
   font-style: normal;
@@ -655,13 +656,37 @@ img {
 }
 
 /* Foter subscription button */
+.footer-subscription-container {
+  width: 570px;
+  height: 86px;
+}
+.subscription-link-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primery-white-color);
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.mail {
+  min-width: 358px;
+  min-height: 50px;
+  margin-right: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: inherit;
+}
 .footer-button {
   background-color: var(--accent-color);
-
   border: transparent;
   border-radius: 4px;
   padding: 10px 28px;
   min-width: 200px;
+  min-height: 50px;
 
   color: var(--primery-white-color);
   font-weight: 700;
