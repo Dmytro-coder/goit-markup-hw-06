@@ -835,7 +835,7 @@ img {
   fill: var(--accent-color);
 }
 
-.form-field-accept {
+.form-field-terms {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -847,7 +847,7 @@ img {
   color: var(--primery-text-color);
   fill: var(--primery-white-color);
 }
-.form-field-accept > a {
+.form-field-terms > a {
   color: var(--accent-color);
 }
 
