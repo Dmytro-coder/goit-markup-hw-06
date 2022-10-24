@@ -553,17 +553,19 @@
 
           <!-- Footer subscription -->
           <div class="footer-subscription-container">
-            <h3 class="subscription-link-title">Підпишіться на розсилку</h3>
-            <div class="send">
-              <label for="mail"></label>
-              <input type="email" name="mail" id="mail" placeholder="E-mail" autofocus />
-              <button type="button" class="footer-button pointer">
-                Підписатися<span class="send-icon"
-                  ><svg width="24" height="24">
-                    <use href="./images/icons.svg#icon-send"></use></svg
-                ></span>
-              </button>
-            </div>
+            <h3 class="subscription-title">Підпишіться на розсилку</h3>
+            <form class="form-subscription" action="#">
+              <div class="send">
+                <label for="mail"></label>
+                <input type="email" name="mail" id="mail" placeholder="E-mail" autofocus />
+                <button type="button" class="footer-button pointer">
+                  Підписатися<span class="send-icon"
+                    ><svg width="24" height="24">
+                      <use href="./images/icons.svg#icon-send"></use></svg
+                  ></span>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -575,7 +577,7 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <form class="form js-speaker-form">
+        <form class="form" action="#">
           <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
           <div class="form-field">
             <label for="name">Ім'я</label>
